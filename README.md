@@ -1,9 +1,9 @@
-### Red Elves skin readme and changelog
+### Enchanted Elves skin readme and changelog
 
 Forum thread: http://www.hydlaaplaza.com/smf/index.php?topic=41186.0
 ANY FEEDBACK is welcomed!
 
-### "Red Elves" skin common Goals:
+### "Enchanted Elves" skin common Goals:
 
    Be visually compatible with defaut "Elves v2" skin
    Add some polishing to it and improve usability
@@ -12,7 +12,7 @@ ANY FEEDBACK is welcomed!
 
 ### Changes in 2013/11/20 version:
 
-	Quick fix release for PS 0.6.0 - just to be able to use Red Elves with a new PS.
+	Quick fix release for PS 0.6.0 - just to be able to use Enchanted Elves with a new PS.
 	Expect next relase with more sane changes in about a week.
 
 New Active Magic window:
