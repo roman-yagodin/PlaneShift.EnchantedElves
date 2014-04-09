@@ -1,8 +1,8 @@
 <xml>
     <skin_information>
-        <name>RedElves (based on Elves v2)</name>
-        <author>Redhound</author>
-        <description>Based on Elves GUI skin version 2.0 for PlaneShift 0.5, with some fixes and enchantements (see changes.txt). Original creators Cherppow &amp; Vengeance.</description>
+        <name>Enchanted Elves (based on Elves v2)</name>
+        <author>Roman M. Yagodin</author>
+        <description>Based on Elves GUI skin version 2.0 for PlaneShift 0.5, with some fixes and enchantements. Original creators Cherppow &amp; Vengeance. Special thanks to Rizin, Lanarel, weltall, Xordan and LigH. And my special thanks to Bonifarzia.</description>
     </skin_information>
     <mount_path>/paws/real_skin</mount_path>
 </xml>
