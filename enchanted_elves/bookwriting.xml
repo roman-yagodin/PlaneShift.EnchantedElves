@@ -1,0 +1,46 @@
+<widget_description>
+
+    <widget name="WritingWindow" factory="pawsWritingWindow" resizeable = "no" visible="no" movable="yes" style="New Standard GUI">
+        <frame x="100" y="70" width="440" height="526" border="yes"/>
+        <bgimage resource="Write Book" />
+        <!-- <title resource="Scaling Title Bar" text="Book Writing" align="left" close_button="yes"/>-->
+
+        <widget name="ItemName" factory="pawsEditTextBox" >
+            <frame x="55" y="40" width="340" height="30"/>
+            <font name="becker-m.ttf" r="0" g="0" b="0" size="15"/>
+            <text horizAdjust="LEFT" />
+            <spellChecker enable="true" r="165" g="42" b="42"/> 
+        </widget>
+
+        <widget name="body" factory="pawsMultilineEditTextBox" style="textinput">
+            <frame x="55" y="85" width="376" height="400" border="no"/>
+            <font name="becker-m.ttf" r="0" g="0" b="0" size="12"/>
+            <spellChecker enable="true" r="165" g="42" b="42"/> 
+        </widget>
+        
+        <widget name="save" factory="pawsButton" id="103" tooltip="Save this Book">
+            <frame x="403" y="39" width="32" height="32" />
+            <bgimage resource="Modify Save" />
+        </widget>
+
+        <widget name="load" factory="pawsButton" id="104" tooltip="Load this Book">
+            <frame x="403" y="480" width="32" height="32" />
+            <bgimage resource="Scribe_old" />
+        </widget>
+
+        <widget name="cancel" factory="pawsButton" id="101" style="Standard Button" visible="no" tooltip="Discard Changes">
+            <frame x="350" y="7" width="70" height="20" />
+            <label text="Cancel"/>
+        </widget>
+
+      <widget name="CloseButton" factory="pawsButton" tooltip="Close">
+            <frame x="403" y="8" width="32" height="32" />
+            <bgimage resource="ButtonClose" />
+            <eventMouseDown>WritingWindow:Hide();</eventMouseDown>
+       </widget>
+
+   </widget>
+
+</widget_description>
+
+

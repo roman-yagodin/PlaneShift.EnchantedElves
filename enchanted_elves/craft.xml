@@ -1,0 +1,19 @@
+<widget_description>
+    <widget name="CraftWindow" factory="pawsCraftWindow" visible="no" movable="yes" savepositions="yes" resizable="yes" configurable="yes" keepaspect="no" style="New Standard GUI">
+
+        <frame x="70" y="70" width="670" height="280" border="yes"/>
+        <title resource="Scaling Title Bar" text="Study Notes" align="left" close_button="yes" />
+
+    <widget name="HelpText" factory="pawsMultiLineTextBox">
+        <frame x="10" y="10" width="650" height="260" border="no"/>
+        <text string="You have to read a book first!" />
+        <attachpoints>
+            <attach point="ATTACH_TOP" />
+            <attach point="ATTACH_LEFT" />
+            <attach point="ATTACH_BOTTOM" />
+            <attach point="ATTACH_RIGHT" />
+        </attachpoints>
+    </widget>
+
+    </widget>
+</widget_description>

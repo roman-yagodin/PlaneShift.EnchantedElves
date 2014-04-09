@@ -1,0 +1,70 @@
+<widget_description>
+
+    <widget name="BookReadingWindow" factory="pawsBookReadingWindow" visible="no" movable="yes" style="New Standard GUI">
+        <frame x="100" y="70" width="721" height="478" border="yes"/>
+        <bgimage resource="Book Background" />
+        <!-- <title resource="Scaling Title Bar" text="Read Book" align="left" close_button="yes"/> -->
+      
+       <widget name="CloseButton" factory="pawsButton" tooltip="Close">
+            <frame x="656" y="15" width="32" height="32" />
+            <bgimage resource="Modify Cancel" />
+            <eventMouseDown>BookReadingWindow:Hide();</eventMouseDown>
+       </widget>
+
+        <!-- redhound: must be pawsMultiLineTextBox? -->
+        <widget name="ItemName" factory="pawsTextBox" >
+            <frame x="50" y="35" width="621" height="30"/>
+            <font name="becker-m.ttf" r="61" g="43" b="31" size="15" />
+            <text horizAdjust="LEFT" />
+        </widget>
+         
+       <!-- redhound: for what is it here?.. -->
+       <widget name="ItemNameRight" factory="pawsTextBox" >
+            <frame x="380" y="35" width="290" height="40"/>
+            <font name="becker-m.ttf" r="61" g="43" b="31" size="15"/>
+            <text horizAdjust="CENTRE" />
+        </widget>
+
+    <widget name="ItemDescription" factory="pawsMultiPageDocumentView" style="textinput">
+        <frame x="50" y="80" width="290" height="350" border="no"/>
+        <font name="becker-m.ttf" r="0" g="0" b="0" size="12"/>
+    </widget>
+    
+    <widget name="ItemDescriptionRight" factory="pawsMultiPageDocumentView" style="textinput">
+        <frame x="380" y="80" width="290" height="350" border="yes"/>
+        <font name="becker-m.ttf" r="0" g="0" b="0" size="12"/>
+    </widget> 
+    
+    <widget name="ItemDescriptionCraft" factory="pawsMultiPageDocumentView" style="textinput">
+        <frame x="50" y="80" width="290" height="330" border="no"/>
+        <font name="becker-m.ttf" r="0" g="0" b="0" size="12"/>
+    </widget>
+    <widget name="ItemDescriptionCraftRight" factory="pawsMultiPageDocumentView" style="textinput">
+        <frame x="380" y="80" width="290" height="330" border="no"/>
+        <font name="becker-m.ttf" r="0" g="0" b="0" size="12"/>
+    </widget>    
+
+    <widget name="WriteButton" factory="pawsButton" id="1001" tooltip="Write in this Book">
+        <frame x="619" y="15" width="32" height="32" />
+        <bgimage resource="QuestButton_active" />
+    </widget>
+
+    <widget name="SaveButton" factory="pawsButton" id="1002" tooltip="Save this Book">
+        <frame x="656" y="47" width="32" height="32" />
+        <bgimage resource="Modify Save" />
+    </widget>
+    
+     <widget name="NextButton" factory="pawsButton" id="1003" tooltip="Next Page">
+        <frame x="651" y="430" width="32" height="32" />
+        <bgimage resource="NextPage" />
+    </widget>    
+    
+    <widget name="PrevButton" factory="pawsButton" id="1004" tooltip="Previous Page">
+        <frame x="38" y="430" width="32" height="32" />
+        <bgimage resource="PrevPage" />
+    </widget> 
+
+    </widget>
+
+</widget_description>
+
