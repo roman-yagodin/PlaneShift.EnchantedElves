@@ -90,8 +90,37 @@
 
 </widget>
 
+<!-- Attack Queue Display -->
 
-
+<widget name="AttackQueueDisp" factory="pawsWidget" visible="no">
+<frame x="15" y="50" width="150" height="30" />
+    <attachpoints>
+        <attach point="PROPORTIONAL_RIGHT" />
+        <attach point="PROPORTIONAL_BOTTOM" />
+        <attach point="PROPORTIONAL_TOP" />
+        <attach point="PROPORTIONAL_LEFT" />
+    </attachpoints>
+	<widget name="Queue5" id="1000" factory="pawsSlot" >
+        <frame x="120" y="0" width="30" height="30" border="no" />
+        <show_stack_amount>0</show_stack_amount>
+    </widget>
+	<widget name="Queue4" factory="pawsSlot" >
+        <frame x="90" y="0" width="30" height="30" border="no" />
+        <show_stack_amount>0</show_stack_amount>
+    </widget>
+	<widget name="Queue3" factory="pawsSlot" >
+        <frame x="60" y="0" width="30" height="30" border="no" />
+        <show_stack_amount>0</show_stack_amount>
+    </widget>
+	<widget name="Queue2" factory="pawsSlot" >
+        <frame x="30" y="0" width="30" height="30" border="no" />
+        <show_stack_amount>0</show_stack_amount>
+    </widget>
+	<widget name="Queue1" factory="pawsSlot" >
+        <frame x="0" y="0" width="30" height="30" border="no" />
+        <show_stack_amount>0</show_stack_amount>
+    </widget>
+</widget>
 
 <!-- Attack Stances -->
 <widget name="AttackButtons" factory="pawsWidget">
