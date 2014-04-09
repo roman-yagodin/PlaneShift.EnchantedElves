@@ -1,4 +1,4 @@
-# About "Enchanted Elves" skin for PlaheShift
+# About "Enchanted Elves" skin for PlaneShift
 
 "Enchanted Elves" skin is based on Elves GUI skin version 2.0 for PlaneShift 0.5, with some fixes and enchantements. Original creators Cherppow &amp; Vengeance. Special thanks to Rizin, Lanarel, weltall, Xordan and LigH. And my special thanks to Bonifarzia.
 
