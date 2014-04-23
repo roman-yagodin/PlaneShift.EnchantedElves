@@ -5,7 +5,7 @@
         <frame x="50" y="50" width="360" height="495" border="yes" />
         <title resource="Scaling Title Bar" text="Stats &amp; Skills" align="left" close_button="yes" />
 
-        <widget name="Filter" factory="pawsButton" id="101" tooltip="Filter Skills" alwaysontop="yes">
+        <widget name="Filter" factory="pawsButton" id="101" tooltip="Filter Skills" alwaysontop="yes" visible="no">
              <frame x="307" y="-26" width="32" height="32" />
              <bgimage resource="FilterSkill" />
         </widget>
