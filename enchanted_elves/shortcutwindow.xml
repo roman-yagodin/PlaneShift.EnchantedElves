@@ -7,8 +7,8 @@
 <font name="LiberationSans-Regular.ttf" r="255" g="228" b="181" size="12"/>
             
 
-        <frame x="5" y="50" width="525" height="115" border="yes" />
-            <minframe width="150" height="115" />
+        <frame x="5" y="50" width="525" height="93" border="yes" />
+            <minframe width="150" height="93" />
 
 <!-- This resource definition makes the background frame invisible. comment it out if you want to see the frame  -->
      <bgimage resource="Back" alpha="255" />
@@ -108,7 +108,7 @@
         </widget>
 
 -->
-        <widget name="iconScroll" factory="pawsScrollBar" direction="horizontal" style="Standard Scrollbar Horizontal">
+        <widget name="iconScroll" factory="pawsScrollBar" direction="horizontal" style="Standard Scrollbar Horizontal" visible="no" >
             <frame x="30" y="87" width="485" height="20" border="no" alwaysontop="yes" />
             <attachpoints>
                 <attach point="ATTACH_LEFT" />
@@ -135,8 +135,8 @@
 
         <widget name="MenuBar" factory="pawsScrollMenu" buttonWidth="128" scrollSize="0.75" textSpacing="4" >
 -->
-        <widget name="MenuBar" factory="pawsScrollMenu">
-            <frame x="5" y="35" height="48" width="515" border="none" />
+        <widget name="MenuBar" factory="pawsScrollMenu" scrollSize="16" >
+            <frame x="5" y="35" height="48" width="515" border="no" />
 	    <minframe width="150" height="48" />
         
 <!-- <bgimage resource="Back" alpha="255" /> -->
