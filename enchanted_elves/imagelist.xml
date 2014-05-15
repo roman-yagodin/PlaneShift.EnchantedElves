@@ -20,6 +20,7 @@
 </image>
 
 <!-- NPC dialog -->
+
 <image file="/paws/real_skin/npcDialog.png" resource="QuestBubble">
     <texturerect x="0" y="0" width="298" height="135" />
 </image>
@@ -620,6 +621,10 @@
     <bottom_right tx="279" ty="203"  tw="9" th="5"/>
 </frame>
 -->
+
+<image file="/paws/real_skin/components01.png" resource="Clear">
+    <texturerect x="511" y="255" width="1" height="1" /> 
+</image>
 <image file="/paws/real_skin/components01.png" resource="Highlight">
     <texturerect x="160" y="192" width="128" height="16" /> 
 </image>

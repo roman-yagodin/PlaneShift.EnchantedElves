@@ -235,31 +235,31 @@
     </widget>
 </widget>
 
-
-
 <!-- Clock -->
-<widget name="TimeScroll" factory="pawsScrollBar" direction="horizontal" tooltip="Time" minValue="1" maxValue="24" tick="1" style="Standard Scrollbar Horizontal" ignore="true">
-        <frame x="-20" y="57" width="220" height="15" border="no" />
+<widget name="TimeScroll" factory="pawsScrollBar" direction="horizontal" tooltip="Time" minValue="1.0" maxValue="24.0" tick="1.0" style="Standard Scrollbar Horizontal" ignore="true">
+        <up gray="Clear" pressed="Clear" unpressed="Clear" />
+        <down gray="Clear" pressed="Clear" unpressed="Clear" />
+	<thumb stopped="Up Arrow" moving="Up Arrow" /> 
+        <frame x="0" y="57" width="180" height="16" border="no" />
             <attachpoints>
-                <attach point="PROPORTIONAL_RIGHT" />
-                <attach point="PROPORTIONAL_BOTTOM" />
+                <attach point="ATTACH_RIGHT" />
+                <attach point="ATTACH_BOTTOM" />
                 <attach point="ATTACH_TOP" />
                 <attach point="ATTACH_LEFT" />
             </attachpoints>
     <subscriptions>
         <subscribe data="TimeOfDay" />
     </subscriptions>
-    </widget>
+</widget>
 
 <widget name="Time" factory="pawsTextBox" tooltip="Current Time">
-    <frame x="5" y="40" width="170" height="20" border="no" margin="2"/>
+    <frame x="5" y="40" width="170" height="20" border="no" margin="2" />
         <!-- <bgimage resource="Scaling Field Background" /> -->
         <font name="becker-m.ttf" size="11" r="171" g="197" b="92" shadow="no" />
         <text horizAdjust="CENTRE" />
     <subscriptions>
         <subscribe data="TimeOfDayStr" />
     </subscriptions>
-    <publish data="TimeOfDayStr" />
 </widget>
 
 
