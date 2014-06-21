@@ -9,7 +9,7 @@
 
 <!-- Personal Info (HP, Mana, Fatigue) -->
 <widget name="Bars" factory="pawsWidget">
-<frame x="5" y="125" width="170" height="48" />
+<frame x="0" y="125" width="180" height="48" />
     <attachpoints>
         <attach point="PROPORTIONAL_RIGHT" />
         <attach point="PROPORTIONAL_BOTTOM" />
@@ -18,7 +18,7 @@
     </attachpoints>
 
     <widget name="My HP" factory="pawsProgressBar" tooltip="Health">
-        <frame x="0" y="5" width="170" height="16" border="no" />
+        <frame x="5" y="5" width="170" height="16" border="no" />
             <color r="150" g="20" b="20" />
             <fadecolor r="200" g="50" b="50" />
         <subscriptions>
@@ -36,7 +36,7 @@
     -->
     </widget>
     <widget name="My PysStamina" factory="pawsProgressBar" tooltip="Physical Stamina" alwaysontop="yes">
-        <frame x="0" y="15" width="150" height="5" border="no" />
+        <frame x="5" y="15" width="150" height="5" border="no" />
             <color r="100" g="50" b="50" />
             <fadecolor r="150" g="75" b="75" />
         <subscriptions>
@@ -54,7 +54,7 @@
     </widget>
 
     <widget name="My Mana" factory="pawsProgressBar" tooltip="Mana">
-        <frame x="0" y="25" width="170" height="16" border="no" />
+        <frame x="5" y="25" width="170" height="16" border="no" />
             <color r="20" g="20" b="160" />
             <fadecolor r="50" g="50" b="200" />
         <subscriptions>
@@ -71,7 +71,7 @@
     </widget>
 
     <widget name="My MenStamina" factory="pawsProgressBar" tooltip="Mental Stamina" alwaysontop="yes">
-        <frame x="0" y="35" width="150" height="5" border="no" />
+        <frame x="5" y="35" width="150" height="5" border="no" />
             <color r="50" g="50"  b="150" />
             <fadecolor r="75" g="75" b="200" />
         <subscriptions>
@@ -201,7 +201,7 @@
 
 <!-- Target Info -->
 <widget name="TargetInfo" factory="pawsWidget">
-<frame x="5" y="0" width="170" height="40" />
+<frame x="0" y="0" width="180" height="40" />
     <attachpoints>
         <attach point="ATTACH_RIGHT" />
         <attach point="PROPORTIONAL_BOTTOM" />
@@ -226,7 +226,7 @@
     </widget>
 
     <widget name="Target HP" factory="pawsProgressBar" tooltip="Target Health">
-        <frame x="0" y="5" width="170" height="16" border="no" />
+        <frame x="5" y="5" width="170" height="16" border="no" />
             <color r="150" g="20" b="20" />
             <fadecolor r="200" g="50" b="50" />
         <subscriptions>
