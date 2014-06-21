@@ -7,7 +7,7 @@
         <minframe width="360" height="30" />
         <!-- <bgimage resource="Scaling Widget Background" /> -->
         <widget name="ShowButtonUp" factory="pawsButton" id="10" tooltip="Hide toolbar/change style" >
-            <frame x="0" y="0" width="32" height="32" />
+            <frame x="16" y="16" width="32" height="32" />
             <bgimage resource="MiniUp" />
             <attachpoints>
                 <attach point="PROPORTIONAL_RIGHT" />
@@ -17,7 +17,7 @@
             </attachpoints>
         </widget>
         <widget name="ShowButtonDown" factory="pawsButton" id="20" tooltip="Show toolbar" visible="no">
-            <frame x="0" y="0" width="32" height="32" />
+            <frame x="16" y="16" width="32" height="32" />
             <bgimage resource="MiniDown" />
             <attachpoints>
                 <attach point="PROPORTIONAL_RIGHT" />
@@ -184,6 +184,17 @@
         <widget name="ActiveMagicButton" factory="pawsButton" id="1500" tooltip="Active effects" sound="gui.toolbar">
             <frame x="960" y="0" width="64" height="64" />
             <bgimage resource="HotBarButton" />
+            <attachpoints>
+                <attach point="PROPORTIONAL_RIGHT" />
+                <attach point="PROPORTIONAL_LEFT" />
+                <attach point="PROPORTIONAL_BOTTOM" />
+                <attach point="PROPORTIONAL_TOP" />
+            </attachpoints>
+        </widget>
+
+ 		<widget name="AttackButton" factory="pawsButton" id="1600" tooltip="Attack book" sound="gui.toolbar">
+            <frame x="1024" y="1" width="64" height="64" />
+            <bgimage resource="AttackButton" />
             <attachpoints>
                 <attach point="PROPORTIONAL_RIGHT" />
                 <attach point="PROPORTIONAL_LEFT" />
