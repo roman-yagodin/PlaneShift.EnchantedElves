@@ -5,13 +5,13 @@
     <frame x="0" y="100" width="180" height="100" border="yes" />
     <minframe width="180" height="100" />
     <!-- <maxframe width="360" height="360" /> -->
-    <title resource="Scaling Title Bar" text="Buddies" align="left" close_button="yes" />
+    <!-- <title resource="Scaling Title Bar" text="Buddies" align="left" close_button="yes" /> -->
+    <bgimage resource="Scaling Widget Background" />
 
 <widget name="BuddyButtons" factory="pawsWidget">
      <frame x="0" y="0" width="270" height="25" border="yes" />
-
       <widget name="add" factory="pawsButton" toggle="no" id="3000" tooltip="Add Buddy" style="Scaling Button">
-            <frame x="10" y="5" width="15" height="12" />
+            <frame x="10" y="10" width="15" height="12" />
             <label text="+" />
             <!-- >
             <attachpoints>
@@ -22,7 +22,7 @@
         </widget>
          
         <widget name="remove" factory="pawsButton" toggle="no" id="2000" tooltip="Remove Buddy" style="Scaling Button">
-            <frame x="35" y="5" width="15" height="12" />
+            <frame x="35" y="10" width="15" height="12" />
             <label text="‒" />
 
             <!--
@@ -34,31 +34,31 @@
         </widget>
 
         <widget name="edit" factory="pawsButton" toggle="no" id="4000" tooltip="Set Alias" style="Scaling Button">
-            <frame x="60" y="5" width="15" height="12" />
-            <label text="A" />
-            <!-->
-            <attachpoints>
-               <attach point="ATTACH_LEFT" />
-                <attach point="ATTACH_TOP" />
-            </attachpoints>
-            -->
+            <frame x="60" y="10" width="45" height="12" />
+            <label text="Alias" />
+           
         </widget>
 
       <widget name="ignore" factory="pawsButton" toggle="no" id="2000" tooltip="Show Ignore" style="Scaling Button">
-            <frame x="85" y="5" width="15" height="12" />
-            <label text="I" />
-            <eventMouseDown>IgnoreWindow:Show();</eventMouseDown>
+            <frame x="125" y="10" width="45" height="12" />
+            <label text="Ignore" />
+ 	    <eventMouseDown>IgnoreWindow:Show();</eventMouseDown>
+            <attachpoints>
+        	<attach point="ATTACH_RIGHT" />
+                <attach point="ATTACH_TOP" />
+            </attachpoints>
         </widget>
 
             <attachpoints>
-               <attach point="ATTACH_LEFT" />
+	       <attach point="ATTACH_LEFT" />
+               <attach point="ATTACH_RIGHT" />
                <attach point="ATTACH_TOP" />
             </attachpoints>
 
     </widget>
 
         <widget name="BuddyList" factory="pawsListBox"  >
-            <frame x="10" y="30" width="160" height="60" border="no" />
+            <frame x="10" y="35" width="160" height="55" border="no" />
 
             <attachpoints>
                <attach point="ATTACH_RIGHT" />
