@@ -24,6 +24,13 @@ ANY FEEDBACK is welcomed!
    
 # Changelog
 
+## Changes in 0.6.1 version:
+
+* New "Two rows" toolbar style
+* Some toolbar tweaks to make show/hide button less buggy
+* Added AttackButton to the toolbar
+* Skin could be used with compiled client (fix issue #1).
+
 ## Changes in 0.6.1-alpha version:
 
 * Added AttackQueueDisp widget to fix new PS client 0.6.1 crush then loading skin version 0.6.0-beta.
