@@ -30,6 +30,7 @@ ANY FEEDBACK is welcomed!
 * Some toolbar tweaks to make show/hide button less buggy
 * Added AttackButton to the toolbar
 * Skin could be used with compiled client (fix issue #1).
+* New dialog window mod.
 
 ## Changes in 0.6.1-alpha version:
 
