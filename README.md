@@ -24,11 +24,11 @@ ANY FEEDBACK is welcomed!
    
 # Changelog
 
-## Changes in 0.6.1 version:
+## Changes in 0.6.1-1 version:
 
-* New "Two rows" toolbar style
-* Some toolbar tweaks to make show/hide button less buggy
-* Added AttackButton to the toolbar
+* New "Two rows" toolbar style.
+* Some toolbar tweaks to make show/hide button less buggy.
+* Added AttackButton to the toolbar.
 * Skin could be used with compiled client (fix issue #1).
 * New dialog window mod.
 
