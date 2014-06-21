@@ -583,6 +583,18 @@
     <bottom_right tx="123" ty="123" tw="5" th="5"/>
 </frame>
 
+<frame file="/paws/real_skin/components01.png" resource="Scaling Button Up" >
+    <top_left     tx="0" ty="64"  tw="5" th="5"                 offsetx="3"   offsety="3" />
+    <top          tx="5" ty="64"  tw="118" th="5" tile="true"   offsetx="-3"  offsety="3" />
+    <top_right    tx="123" ty="64"  tw="5" th="5"               offsetx="-3"  offsety="3" />
+    <left         tx="0" ty="69" tw="5" th="22" tile="true"     offsetx="3"   offsety="-3"/>
+    <middle       tx="5" ty="69" tw="118" th="22" tile="true"   offsetx="-3"  offsety="-3"/>
+    <right        tx="123" ty="69" tw="5" th="22" tile="true"   offsetx="-3"  offsety="-3"/>
+    <bottom_left  tx="0" ty="91" tw="5" th="5"                  offsetx="3"   offsety="-3"/>
+    <bottom       tx="5" ty="91" tw="118" th="5" tile="true"    offsetx="-3"  offsety="-3"/>
+    <bottom_right tx="123" ty="91" tw="5" th="5"                offsetx="-3"  offsety="-3"/>
+</frame>
+
 <frame resource="Scaling Button Disabled" file="/paws/real_skin/components01.png">
     <top_left     tx="0" ty="128"  tw="5" th="5"/>
     <top          tx="5" ty="128"  tw="118" th="5" tile="true" />
@@ -774,9 +786,9 @@
 <image file="/paws/real_skin/icons.png" resource="HotBarButton">
     <texturerect x="896" y="320" width="64" height="64" /> 
 </image>
-
-
-
+<image file="/paws/real_skin/icons.png" resource="AttackButton">
+    <texturerect x="960" y="320" width="64" height="64" /> 
+</image>
 <image file="/paws/real_skin/icons.png" resource="QuitButton_over">
     <texturerect x="0" y="256" width="64" height="64" /> 
 </image>
@@ -822,9 +834,9 @@
 <image file="/paws/real_skin/icons.png" resource="HotBarButton_over">
     <texturerect x="896" y="256" width="64" height="64" /> 
 </image>
-
-
-
+<image file="/paws/real_skin/icons.png" resource="AttackButton_over">
+    <texturerect x="960" y="256" width="64" height="64" /> 
+</image>
 <image file="/paws/real_skin/icons.png" resource="QuitButton_active">
     <texturerect x="0" y="384" width="64" height="64" /> 
 </image>
@@ -865,11 +877,13 @@
     <texturerect x="768" y="384" width="64" height="64" /> 
 </image>
 <image file="/paws/real_skin/icons.png" resource="OptionsButton_active">
-    <texturerect x="832" y="256" width="64" height="64" /> 
+    <texturerect x="832" y="384" width="64" height="64" /> 
 </image>
 <image file="/paws/real_skin/icons.png" resource="HotBarButton_active">
-    <texturerect x="896" y="256" width="64" height="64" /> 
+    <texturerect x="896" y="384" width="64" height="64" /> 
 </image>
-
+<image file="/paws/real_skin/icons.png" resource="AttackButton_active">
+    <texturerect x="960" y="384" width="64" height="64" /> 
+</image>
 </image_list>
 
