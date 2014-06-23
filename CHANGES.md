@@ -3,6 +3,7 @@
 ## Changes in 0.6.1-2 version:
 
 * Buddy window now have widget border - as it should be always in a HUD like Chat, Info, Shortcuts, etc.
+* Buddy window Alias and Ignore buttons now have full labels, Ignore aligned right.
 * Progressbars width in the Info window fixed - don't know when it get wrong?
 * Reorder toolbar buttons in some styles - to make it more regular
 
