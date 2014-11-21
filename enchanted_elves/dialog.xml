@@ -101,8 +101,8 @@
             <widget name="CloseTrigger" factory="pawsTextBox" style="textinput">
                 <frame x="0" y="0" width="64" height="64" border="no" />
 		<bgimage resource="ButtonClose" />
-                <font r="168" g="183" b="206" size="12" bold="yes" />
-                <!-- <text string="Bye!" /> -->
+                <!-- <font r="168" g="183" b="206" size="12" bold="yes" />
+               	<text string="Bye!" /> -->
             </widget>
         </widget>
 
@@ -124,6 +124,17 @@
             <widget name="BubbleText" factory="pawsMultiLineTextBox" style="textinput">
                 <frame x="20" y="25" width="310" height="157" border="no" />
                 <font r="209" g="205" b="158" size="12" bold="yes" />
+            </widget>
+        </widget>
+
+	<widget name="GiveBubble" factory="pawsButton" visible="yes">
+            <frame x="570" y="2" y="240" width="64" height="64" border="no" />
+            <bgimage resource="ButtonGive" />
+
+            <widget name="GiveTrigger" factory="pawsTextBox" style="textinput">
+                <frame x="10" y="10" width="130" height="40" border="no" />
+                <!-- <font r="168" g="183" b="206" size="12" bold="yes" />
+                <text string="Give items to NPCs." /> -->
             </widget>
         </widget>
 

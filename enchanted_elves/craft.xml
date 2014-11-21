@@ -4,16 +4,29 @@
         <frame x="70" y="70" width="670" height="280" border="yes"/>
         <title resource="Scaling Title Bar" text="Study Notes" align="left" close_button="yes" />
 
-    <widget name="HelpText" factory="pawsMultiLineTextBox">
-        <frame x="10" y="10" width="650" height="260" border="no"/>
-        <text string="You have to read a book first!" />
-        <attachpoints>
-            <attach point="ATTACH_TOP" />
-            <attach point="ATTACH_LEFT" />
-            <attach point="ATTACH_BOTTOM" />
-            <attach point="ATTACH_RIGHT" />
-        </attachpoints>
-    </widget>
+		<widget name="HelpText" factory="pawsMultiLineTextBox">
+			<frame x="10" y="10" width="650" height="230" border="no"/>
+			<text string="You have to read a book first!" />
+			<attachpoints>
+		   		<attach point="ATTACH_TOP" />
+				<attach point="ATTACH_LEFT" />
+				<attach point="ATTACH_BOTTOM" />
+				<attach point="ATTACH_RIGHT" />
+			</attachpoints>
+		</widget>
+		<widget name="FilterLabel" factory="pawsTextBox">
+		   <frame x="10" y="250" width="60" height="20" border="no"/>
+		   <text string="Filter:" />
+		   <attachpoints>
+			   <attach point="ATTACH_BOTTOM" />
+		   </attachpoints>
+		</widget>
+		<widget name="Filter" factory="pawsEditTextBox" resizable="no">
+		   <frame x="65" y="250" width="200" height="20"/>
+		   <attachpoints>
+			   <attach point="ATTACH_BOTTOM" />
+			 </attachpoints>
+		</widget>
 
     </widget>
 </widget_description>

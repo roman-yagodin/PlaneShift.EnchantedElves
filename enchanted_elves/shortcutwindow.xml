@@ -84,8 +84,8 @@
     IF YOU DON'T KNOW WHAT THIS IS THEN DON'T USE IT! This feature is essentially useful only for skin designers.
     If left commented out or removed  the shortcutwindow uses the default scrolling controls built into the pawsscrollmenu
 -->
-<!-- Scrollbar is sufficent!
-        <widget name="Up Arrow" factory="pawsButton" text="" toggle="no" id="1105" notify="ShortcutMenu" style="Standard Button">
+
+        <widget name="Up Arrow" factory="pawsButton" text="" toggle="no" id="1105" notify="ShortcutMenu" style="Standard Button" visible="no">
             <frame x="5" y="5" width="50" height="24" />
             <bgimage resource="arrowLeft" />
             <notify name="ShortcutMenu" />
@@ -96,7 +96,7 @@
             </attachpoints>
         </widget>
 
-        <widget name="Down Arrow" factory="pawsButton" text="" toggle="no" id="1106" notify="ShortcutMenu" style="Standard Button">
+        <widget name="Down Arrow" factory="pawsButton" text="" toggle="no" id="1106" notify="ShortcutMenu" style="Standard Button" visible="no">
             <frame x="60" y="5" width="50" height="24" />
             <bgimage resource="arrowRight" />
             <notify name="ShortcutMenu" />
@@ -107,7 +107,6 @@
             </attachpoints>
         </widget>
 
--->
         <widget name="iconScroll" factory="pawsScrollBar" direction="horizontal" style="Standard Scrollbar Horizontal" visible="no" >
             <frame x="30" y="87" width="485" height="20" border="no" alwaysontop="yes" />
             <attachpoints>
