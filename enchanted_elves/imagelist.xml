@@ -20,7 +20,6 @@
 </image>
 
 <!-- NPC dialog -->
-
 <image file="/paws/real_skin/npcDialog.png" resource="QuestBubble">
     <texturerect x="0" y="0" width="298" height="135" />
 </image>
@@ -72,15 +71,12 @@
 <image file="/paws/real_skin/icons.png" resource="FilterSkill">
     <texturerect x="128" y="0" width="64" height="64" />
 </image>
-
 <image file="/paws/real_skin/icons.png" resource="Scribe">
     <texturerect x="640" y="384" width="64" height="64" /> 
 </image>
-
 <image file="/paws/real_skin/icons.png" resource="Scribe_old">
    <texturerect x="448" y="0" width="64" height="64" />
    </image>
-
 <image file="/paws/real_skin/icons.png" resource="NextPage">
     <texturerect x="448" y="0" width="64" height="64" />
 </image>
@@ -96,6 +92,14 @@
     <texturerect x="64" y="0" width="64" height="64" />
 </image>
 
+<!-- Loot window icons -->
+
+<image file="/paws/real_skin/icons.png" resource="TakeAll">
+    <texturerect x="578" y="128" width="64" height="64" />
+</image>
+<image file="/paws/real_skin/icons.png" resource="GroupRandomAll">
+    <texturerect x="640" y="128" width="64" height="64" />
+</image>
 
 <!-- Inventory Window character slot icons -->
 
@@ -213,7 +217,9 @@
 <image file="/paws/real_skin/icons.png" resource="ButtonUnmount">
     <texturerect x="704" y="64" width="64" height="64" /> 
 </image>
-
+<image file="/paws/real_skin/icons.png" resource="ButtonStorage">
+    <texturerect x="768" y="64" width="64" height="64" /> 
+</image>
 
 <!-- standard buttons and backgrounds -->
 
@@ -230,7 +236,7 @@
 <image file="/paws/real_skin/components01.png" resource="Grey Background" tiled="true">
   <texturerect x="240" y="180" width="64" height="64" />
   <alpha level="0" />
-  </image>
+</image>
 
 <image file="/paws/real_skin/icons.png" resource="view">
     <texturerect x="128" y="0" width="64" height="64" /> 
@@ -238,14 +244,15 @@
 <image file="/paws/real_skin/icons.png" resource="InventoryBulk">
     <texturerect x="192" y="0" width="64" height="64" /> 
 </image>
-
+<image file="/paws/real_skin/icons.png" resource="ButtonHighlight">
+    <texturerect x="704" y="128" width="64" height="64" /> 
+</image>
 <!-- Money Icons -->
 <image file="/paws/real_skin/icons.png" resource="MoneyTrias">
     <texturerect x="704" y="0" width="64" height="64" /> 
 </image>
 <image file="/paws/real_skin/icons.png" resource="MoneyHexas">
     <texturerect x="768" y="0" width="64" height="64" /> 
-
 </image>
 <image file="/paws/real_skin/icons.png" resource="MoneyOctas">
     <texturerect x="832" y="0" width="64" height="64" /> 

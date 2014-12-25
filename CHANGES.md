@@ -1,5 +1,9 @@
 # Changelog
 
+## Changes in 0.6.3-1 version:
+
+* Fixes to work with new PS client 0.6.3 release.
+
 ## Changes in 0.6.1-2 version:
 
 * Buddy window now have widget border - as it should be always in a HUD like Chat, Info, Shortcuts, etc.
