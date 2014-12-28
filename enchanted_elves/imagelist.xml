@@ -169,6 +169,9 @@
 <image file="/paws/real_skin/icons.png" resource="ButtonPickup">
     <texturerect x="0" y="128" width="64" height="64" /> 
 </image>
+<image file="/paws/real_skin/icons.png" resource="ButtonPickupAll">
+    <texturerect x="578" y="128" width="64" height="64" />
+</image>
 <image file="/paws/real_skin/icons.png" resource="ButtonDrop">
     <texturerect x="384" y="128" width="64" height="64" /> 
 </image>
