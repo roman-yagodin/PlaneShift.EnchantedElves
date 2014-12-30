@@ -1,3 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
 <widget_description>
     <widget name="CraftWindow" factory="pawsCraftWindow" visible="no" movable="yes" savepositions="yes" resizable="yes" configurable="yes" keepaspect="no" style="New Standard GUI">
 

@@ -1,3 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
 <widget_description>
 
     <widget name="ChatWindow" factory="pawsChatWindow" visible="yes" savepositions="yes" movable="yes" resizable="yes" keepaspect="no" configurable="yes" style="New Standard GUI" scalefont="no">

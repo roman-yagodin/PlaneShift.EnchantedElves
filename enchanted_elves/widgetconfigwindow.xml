@@ -1,3 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
 <widget_description>
 
 <widget name="Window Settings" factory="widgetconfigwindow" visible="yes" savepositions="yes" movable="yes" resizable="no" style="New Standard GUI" >
