@@ -1,5 +1,11 @@
 # Changelog
 
+## Changes in 0.6.3-2 version:
+
+* Use *Open Sans* as main skin font (Apache 2.0 license). To be able to select it from UI for various parts (e.g. chat window), copy content of `ttf` folder inside skin package to `/planeshift/data/ttf`.
+* Use new *Loot All* icon to make *ButtonTakeAll* resource and use it for *Take All* button in the container window.
+* Attack queue in the info window is visible again.
+
 ## Changes in 0.6.3-1 version:
 
 * Fixes to work with new PS client 0.6.3 release.
