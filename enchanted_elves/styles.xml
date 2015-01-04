@@ -108,7 +108,22 @@
         <frame height="25" />
     </style>
 
+	<!-- Font used in dialog bubbles for quest names -->
+	<style name="Quest Name">
+		<!-- <font name="/planeshift/data/ttf/cupandtalon.ttf" r="209" g="205" b="158" size="12" /> -->
+		<font name="/paws/real_skin/ttf/OpenSans-Regular.ttf" r="209" g="205" b="158" size="9" bold="yes" shadow="yes" />
+	</style>
 
+	<!-- Font used in dialog bubbles for quest text -->
+	<style name="Quest Text"> <!-- r="168" g="183" b="206" -->
+		<font name="/paws/real_skin/ttf/OpenSans-Regular.ttf" r="200" g="200" b="200" size="9" shadow="no" />
+        <frame border="yes" />
+	</style>
+
+	<!-- Font used in dialog bubbles for NPC text -->
+	<style name="Quest NPC Text"> <!-- r="168" g="183" b="206" -->
+		<font name="/paws/real_skin/ttf/OpenSans-Regular.ttf" r="209" g="205" b="158" size="9" shadow="no" />
+	</style>
 
     <!-- Buttons -->
     <style name="Simple Button" inherit="Button Font" toggle="no" >
@@ -273,9 +288,6 @@
             <attach point="ATTACH_BOTTOM" />
         </attachpoints>
     </style>
-
-
-
 
     <style name="New Standard GUI" inherit="Standard Font">
         <bgimage resource="Scaling Window Background" />

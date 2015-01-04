@@ -37,35 +37,31 @@
 
     <widget name="Bubbles" factory="pawsWidget" visible="no" > <!-- style="New Standard GUI"> -->
         <frame x="0" y="0" width="730" height="400" border="no" />
-	<!-- <bgimage resource="Scaling Field Background" /> -->
+		<!-- <bgimage resource="Scaling Field Background" /> -->
 
         <widget name="Bubble1" factory="pawsButton" visible="yes" id="100">
             <frame x="45" y="10" width="305" height="130" border="no" />
             <bgimage resource="QuestBubble" />
 
-            <widget name="QuestName" factory="pawsTextBox" style="textinput">
-                    <frame x="20" y="25" width="250" height="17" border="yes" />
-                    <font r="209" g="205" b="158" size="12" bold="yes" />
+            <widget name="QuestName" factory="pawsTextBox" style="Quest Name">
+                    <frame x="20" y="25" width="255" height="17" border="yes" />
             </widget>
 
-            <widget name="QuestText" factory="pawsMultiLineTextBox" style="textinput">
-                   <frame x="20" y="45" width="250" height="60" border="no" />
-		   <font r="168" g="183" b="206" size="12" bold="yes" />
-            </widget>
+            <widget name="QuestText" factory="pawsMultiLineTextBox" style="Quest Text">
+                   <frame x="20" y="45" width="255" height="60" border="no" />
+		    </widget>
         </widget>
 
         <widget name="Bubble2" factory="pawsButton" visible="yes" id="101">
             <frame x="375" y="10" width="305" height="130" border="no" />
             <bgimage resource="QuestBubble" />
 
-            <widget name="QuestName" factory="pawsTextBox" style="textinput">
-                    <frame x="20" y="25" width="250" height="17" border="yes" />
-                    <font r="209" g="205" b="158" size="12" bold="yes" />
+            <widget name="QuestName" factory="pawsTextBox" style="Quest Name">
+                    <frame x="20" y="25" width="255" height="17" border="yes" />
             </widget>
 
-            <widget name="QuestText" factory="pawsMultiLineTextBox" style="textinput">
-                   <frame x="20" y="45" width="250" height="60" border="no" />
-                   <font r="168" g="183" b="206" size="12" bold="yes" />
+            <widget name="QuestText" factory="pawsMultiLineTextBox" style="Quest Text">
+                   <frame x="20" y="45" width="255" height="60" border="no" />
             </widget>
         </widget>
 
@@ -73,14 +69,12 @@
             <frame x="45" y="160" width="305" height="130" border="no" />
 	    <bgimage resource="QuestBubble" />
 		
-            <widget name="QuestName" factory="pawsTextBox" style="textinput">
-                    <frame x="20" y="25" width="250" height="17" border="yes" />
-                    <font r="209" g="205" b="158" size="12" bold="yes" />
+            <widget name="QuestName" factory="pawsTextBox" style="Quest Name">
+                    <frame x="20" y="25" width="255" height="17" border="yes" />
             </widget>
 
-            <widget name="QuestText" factory="pawsMultiLineTextBox" style="textinput">
-                   <frame x="20" y="45" width="250" height="60" border="no" />
-                   <font r="168" g="183" b="206" size="12" bold="yes" />
+            <widget name="QuestText" factory="pawsMultiLineTextBox" style="Quest Text">
+                   <frame x="20" y="45" width="255" height="60" border="no" />
             </widget>
         </widget>
 
@@ -94,7 +88,6 @@
             <bgimage resource="NPCRightArrow" />
         </widget>
 
-ut
 	<widget name="CloseBubble" factory="pawsButton" visible="yes">
             <frame x="615" y="225" width="64" height="64" border="no" />
             <!-- <bgimage resource="Scaling Button Background" /> -->
@@ -122,9 +115,8 @@ ut
             <frame x="5" y="5" width="350" height="210" border="no" />
             <bgimage resource="NPCSpeechBubble" />
 
-            <widget name="BubbleText" factory="pawsMultiLineTextBox" style="textinput">
-                <frame x="20" y="25" width="310" height="157" border="no" />
-                <font r="209" g="205" b="158" size="12" bold="yes" />
+            <widget name="BubbleText" factory="pawsMultiLineTextBox" style="Quest NPC Text">
+                <frame x="20" y="25" width="280" height="157" border="no" />
             </widget>
         </widget>
 
