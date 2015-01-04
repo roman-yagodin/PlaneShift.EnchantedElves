@@ -40,7 +40,7 @@
 	<!-- <bgimage resource="Scaling Field Background" /> -->
 
         <widget name="Bubble1" factory="pawsButton" visible="yes" id="100">
-            <frame x="45" y="10" width="310" height="135" border="yes" />
+            <frame x="45" y="10" width="305" height="130" border="no" />
             <bgimage resource="QuestBubble" />
 
             <widget name="QuestName" factory="pawsTextBox" style="textinput">
@@ -55,7 +55,7 @@
         </widget>
 
         <widget name="Bubble2" factory="pawsButton" visible="yes" id="101">
-            <frame x="370" y="10" width="310" height="135" border="no" />
+            <frame x="375" y="10" width="305" height="130" border="no" />
             <bgimage resource="QuestBubble" />
 
             <widget name="QuestName" factory="pawsTextBox" style="textinput">
@@ -70,7 +70,7 @@
         </widget>
 
         <widget name="Bubble3" factory="pawsButton" visible="yes" id="102">
-            <frame x="45" y="160" width="310" height="135" border="no" />
+            <frame x="45" y="160" width="305" height="130" border="no" />
 	    <bgimage resource="QuestBubble" />
 		
             <widget name="QuestName" factory="pawsTextBox" style="textinput">
@@ -85,18 +85,18 @@
         </widget>
 
         <widget name="LeftArrow" factory="pawsButton" visible="yes">
-            <frame x="5" y="5" width="25" height="135" border="no" />
+            <frame x="5" y="10" width="25" height="130" border="no" />
             <bgimage resource="NPCLeftArrow" />
         </widget>
 
         <widget name="RightArrow" factory="pawsButton" visible="yes">
-            <frame x="695" y="5" width="25" height="135" border="no" />
+            <frame x="695" y="10" width="25" height="130" border="no" />
             <bgimage resource="NPCRightArrow" />
         </widget>
 
-
+ut
 	<widget name="CloseBubble" factory="pawsButton" visible="yes">
-            <frame x="635" y="240" width="64" height="64" border="no" />
+            <frame x="615" y="225" width="64" height="64" border="no" />
             <!-- <bgimage resource="Scaling Button Background" /> -->
 
             <widget name="CloseTrigger" factory="pawsTextBox" style="textinput">
@@ -129,18 +129,18 @@
         </widget>
 
 	<widget name="GiveBubble" factory="pawsButton" visible="yes">
-            <frame x="570" y="2" y="240" width="64" height="64" border="no" />
+            <frame x="540" y="225" width="64" height="64" border="no" />
             <bgimage resource="ButtonGive" />
 
             <widget name="GiveTrigger" factory="pawsTextBox" style="textinput">
-                <frame x="10" y="10" width="130" height="40" border="no" />
+                <frame x="0" y="0" width="64" height="64" border="no" />
                 <!-- <font r="168" g="183" b="206" size="12" bold="yes" />
                 <text string="Give items to NPCs." /> -->
             </widget>
         </widget>
 
         <widget name="FreeBubble" factory="pawsWidget" visible="yes" >
-            <frame x="365" y="160" width="310" height="95" border="no" />
+            <frame x="375" y="160" width="305" height="40" border="no" />
             <!-- <bgimage resource="Scaling Window Background" /> -->
 
             <widget name="StartSign" factory="pawsTextBox" style="textinput" visible="no">
@@ -148,7 +148,7 @@
                 <text string=">" />
             </widget>
             <widget name="InputText" factory="pawsEditTextBox">
-                <frame x="5" y="5" width="310" height="25" border="no" />
+                <frame x="5" y="5" width="295" height="25" border="no" />
                 <text string="" />
             </widget>
         </widget>
