@@ -135,7 +135,7 @@
 
 
     <widget name="BtnStance1" id="100" tooltip="Bloody" factory="pawsButton" visible="yes" sound="gui.toolbar" style="Simple Button">
-        <frame x="150" y="" width="30" height="30" border="no" />
+        <frame x="150" y="0" width="30" height="30" border="no" />
         <bgimage resource="ButtonAttackBloody" />
 
     </widget>
