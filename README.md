@@ -2,7 +2,7 @@
 
 "Enchanted Elves" skin is based on Elves GUI skin version 2.0 for PlaneShift 0.5, with some fixes and enchantements. Original creators Cherppow &amp; Vengeance. Special thanks to Rizin, Lanarel, weltall, Xordan and LigH. And my special thanks to Bonifarzia.
 
-Skin forum thread: http://www.hydlaaplaza.com/smf/index.php?topic=41186.0
+Skin forum thread: http://www.hydlaaplaza.com/smf/index.php?topic=41689.0
 ANY FEEDBACK is welcomed!
 
 [PlaneShift] (http://www.planeshift.it) is a Role Playing Game immersed into a 3D virtual fantasy world which is fully free to play. Fully free means you will have no surprises of premium content which will limit your gameplay or unbalance the game. There are no limitations in skills, ranks, abilities, items you can gain with your account.
