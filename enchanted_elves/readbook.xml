@@ -27,12 +27,12 @@
         </widget>
 
     <widget name="ItemDescription" factory="pawsMultiPageDocumentView" style="textinput">
-        <frame x="50" y="80" width="290" height="350" border="no"/>
+        <frame x="50" y="80" width="290" height="330" border="no"/>
         <font name="becker-m.ttf" r="0" g="0" b="0" size="12"/>
     </widget>
     
     <widget name="ItemDescriptionRight" factory="pawsMultiPageDocumentView" style="textinput">
-        <frame x="380" y="80" width="290" height="350" border="yes"/>
+        <frame x="380" y="80" width="290" height="330" border="no"/>
         <font name="becker-m.ttf" r="0" g="0" b="0" size="12"/>
     </widget> 
     
